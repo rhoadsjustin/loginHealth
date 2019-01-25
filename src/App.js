@@ -1,6 +1,10 @@
-import React, { Component } from 'react';
-import logo from './logo.svg';
-import './App.css';
+import React, { Component } from "react";
+import logo from "./mario_luigi_dance.gif";
+import "./App.css";
+// import "primereact/resources/themes/nova-light/theme.css";
+// import "primereact/resources/primereact.min.css";
+// import "primeicons/primeicons.css";
+// import Chart from "./donutChart";
 
 class App extends Component {
   render() {
@@ -8,17 +12,15 @@ class App extends Component {
       <div className="App">
         <header className="App-header">
           <img src={logo} className="App-logo" alt="logo" />
-          <p>
-            Edit <code>src/App.js</code> and save to reload.
-          </p>
-          <a
-            className="App-link"
-            href="https://reactjs.org"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            Learn React
-          </a>
+          <div>
+            <h1 style={{ paddingTop: 20 }}>Is Login Down?</h1>
+            <h3 style={{ paddingTop: 20 }}>Nope!!!!!!!!!</h3>
+          </div>
+          {/* <div>
+            <p>BUT KYLE's the man and fixed it, so login and keep working ya filthy animals.</p>
+            <img src={'https://ca.slack-edge.com/TCD5DF59Q-UCCU9933N-6a3683d6fe28-72'} className="kyle-logo" alt="logo" />
+
+          </div> */}
         </header>
       </div>
     );

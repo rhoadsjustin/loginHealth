@@ -6,16 +6,19 @@
   animation: App-logo-spin infinite 20s linear;
   height: 40vmin;
 }
+.kyle-logo {
+  height: 20vmin;
 
+}
 .App-header {
-  background-color: #282c34;
+  background-color: #007DBA;
   min-height: 100vh;
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
   font-size: calc(10px + 2vmin);
-  color: white;
+  color: #FFDB00;
 }
 
 .App-link {
@@ -28,5 +31,11 @@
   }
   to {
     transform: rotate(360deg);
+  }
+}
+
+@keyframes app-pulsate {
+  from {
+    transform: 
   }
 }
