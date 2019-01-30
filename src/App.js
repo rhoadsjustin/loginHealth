@@ -8,16 +8,16 @@ class App extends Component {
     return (
       <div className="App">
         <header className="App-header">
-          <img src={yes} className="App-logo" alt="logo" />
+          <img src={logo} className="App-logo" alt="logo" />
           <div style={{ alignContent: 'center'}}>
             <h1 style={{ paddingTop: 20 }}>Is Login Down?</h1>
-            <h3 style={{ paddingTop: 20 }}>Not. At. All.</h3>
+            <h3 style={{ paddingTop: 20 }}>Yup</h3>
           </div>
           <div>
             <p>Pi Basketball Scoreboard:</p>
             <ul style={{ listStyle: 'none', alignItems: 'center' }}>
               <li>Dane: 3</li>
-              <li>Justin: 2</li>
+              <li>Justin: 3</li>
               <li>Joe: 1</li>
               <li>Brent: 0</li>
             </ul>
