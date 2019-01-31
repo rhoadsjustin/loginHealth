@@ -19,7 +19,7 @@ class App extends Component {
               <li>
                 Justin: 5 <img src={yes} style={{ height: 30, width: 30 }} />
               </li>
-              <li>Dane: 4</li>
+              <li>Dane: 5 <img src={logo} style={{ height: 30, width: 30 }} /> </li>
               <li>Joe: 1</li>
               <li>Brent: 0</li>
             </ul>
