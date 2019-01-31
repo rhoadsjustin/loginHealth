@@ -16,7 +16,7 @@ class App extends Component {
           <div>
             <p>Pi Basketball Scoreboard:</p>
             <ul style={{ listStyle: 'none', alignItems: 'center' }}>
-              <li>Dane: 3</li>
+              <li>Dane: 4</li>
               <li>Justin: 3</li>
               <li>Joe: 1</li>
               <li>Brent: 0</li>
