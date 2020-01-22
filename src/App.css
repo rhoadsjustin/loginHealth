@@ -21,6 +21,12 @@
   color: #FFDB00;
 }
 
+.brent-logo {
+  height: 20vmin;
+  border-radius: 60;
+  animation: App-logo-spin infinite 20s linear;
+}
+
 .App-link {
   color: #61dafb;
 }
